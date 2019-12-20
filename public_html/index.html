@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RPD-Filosofos</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body {
+                background-color: #cce0ff;
+                color: #000;
+            }
+            a {
+                color: #080;
+            }
+            button{
+                position: fixed;
+                z-index: 100;
+                top: 0;
+                left: 0;
+            }
+            .Details{
+                position: fixed;
+                z-index: 100;
+                top: 0;
+                left: 100px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="container"></div>
+
+        <button type="button" id="btnCambiar">CAMBIAR</button>
+        <div class="Details">
+            Turno = <span id="turno"></span>
+        </div>
+
+        <script type="module" src="js/index.js"></script>
+
+
+    </body>
+</html>
